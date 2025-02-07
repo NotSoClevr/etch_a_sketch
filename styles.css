@@ -1,18 +1,32 @@
 body {box-sizing: border-box;
     margin: 0;
     padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #container {
     display: flex;
     flex-wrap: wrap;
-    padding: 100px;
+    width: 960px;
+    height: 960px;
+    justify-content: center;
+    
 }
 
 #container>div {
     border: 1px solid black;
-    width: 25px;
-    height: 75px;
-    flex: 1 1 5.88%;
 }
 
+button {
+    margin: 25px;
+    padding: 14px 8px;
+    font-size: medium;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+}
